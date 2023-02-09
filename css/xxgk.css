@@ -1,0 +1,39 @@
+.bannerNy1{
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+}
+.infoName{
+    width: 100%;
+    height: 580px;
+    z-index: 0;
+}
+.infoName{
+    width: 100%;
+    height: 580px;
+    z-index: 10;
+}
+.NyTopinfCon{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 200;
+    margin-top: -220px;
+}
+.NyTopinfCon p {
+    font-size: 40px;
+    color: white;
+    z-index: 9;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+  }
+  .NyTopinfCon span {
+    display: block;
+    width: 70%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+  }
+  

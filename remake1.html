@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remakedemo</title>
+    <link rel="stylesheet" type="text/css" href="./remake1-css.css">
+<!-- 11 -->
+    <link rel="icon" href="./images/logo.ico">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="./css/owl.theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/animate.min.css"> -->
+    <!-- <script src="./js/jquery.js"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="./icons/entypo.css"> -->
+    <!-- <script src="./js/owl.carousel.js"></script> -->
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="./js/jquery1.min.js"></script>  <!--不能删！！！！！！！！！！！！-->
+    <script src="./js/swiper.min.js"></script>   <!--不能删！！！！！！！！！！！！-->
+    <link rel="stylesheet" href="./iconfont.css">
+    <link rel="stylesheet" href="./incon.css">
+    <!-- <script src="js/index.js"></script> -->
+    <!-- <script src="./css/style1.css"></script> -->
+</head>
+<body style="background-color: #f6f6f6!important;">
+    
+    <div class="news">
+        <div class="center">
+            <div class="ztgg-title">
+                <div class="ztgg-title-left">
+                    <div class="ztgg-title-leftHead1">ChCNU News</div>
+                    <div class="ztgg-title-leftHead2"><strong>长师新闻</strong></div>
+                    <!-- <div class="line"></div> -->
+                </div>
+                <div class="ztgg-title-right">
+                    <div class="ztgg-title-gd">
+                        <div style="height: 60%;width: 100%;"></div>
+                        <div class="ztgg-titke-gdimg"></div>
+                        <div class="ztgg-title-gdText">进入新闻网</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="news_main">
+                <div class="index">
+                    <div class="section1 wow fadeInUp animated animated" style="visibility: visible;">
+                        <div class="s1-child px1280">
+                            <div class="s1-left">
+                                <section class="sec1">
+                                    <div class="main s1-left-switch">
+                                        <!-- 基于swiper的新闻滚动组合1 -->
+                                        <div class="w-newsList w-newsList1 clearfix" id="newsList1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="news-item"><a href="#" class="clearfix">
+                                                            <div class="box">
+                                                                <div class="xzzz">                                                                  
+                                                                    <img
+                                                                    src="https://www.ccsfu.edu.cn/__local/B/E4/23/F897207890C4C4A227E7D4866EE_53319B23_18C3A.jpg"
+                                                                    alt="" > 
+                                                                </div>
+                                                                <p class="s1-left-tit">长春师范大学第八届第一次教职工代表大会暨工会会员代表大会胜利召开</p>
+                                                                <p class="s1-left-cont">6月11日上午8时，在庄严的国歌声中，长春师范大学第八届第一次教职工代表大会暨工会会员代表大会在教学综合楼1101会议室及各分会场隆重举行。党委书记李彧威出席大会并讲话，校长刘多作题为《攻坚克难  砥砺奋斗  全力推动学校高质量发展》的工作报告。党委副书记杨勇主持全体会议。
+                                                                </p>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="news-item"><a href="#" class="clearfix">
+                                                            <div class="box">
+                                                                <div class="xzzz"><img
+                                                                        src="https://www.ccsfu.edu.cn/__local/9/42/6B/13A091A0A7D3DDE2B0D08FCCC37_D1331D5A_70A6D.jpg"
+                                                                        alt="" width="75%"></div>
+                                                                <p class="s1-left-tit">学校召开2022年党的建设工作部署会和党...</p>
+                                                                <p class="s1-left-cont">新闻网讯（通讯员
+                                                                    张慧）为深入学习贯彻习近平新时代中国特色社会主义思想，深入贯彻新时代党的建设总要求，一以贯之落实全面从严治党战略方针，6月2日下午，学校党委在学术报告厅采用线上线下相结合的方式，召开学校2022年党的建设工作部署会和党风廉政建设工作会议。党委书记孙长智出席会议并讲话，校长张明耀主持会议。部分学校领导在主席台就座党...
+                                                                </p>
+                                                            </div>
+                                                        </a></div>
+                                                </div>
+                                            </div>
+                                            <div class="adSN_page"></div>
+                                            <!-- <div class="swiper-num">
+                                                <span class="active"></span>/
+                                                <span class="total"></span>
+                                            </div> -->
+                                        </div>
+                                        <script type="text/javascript">
+                                            $(function () {
+                                                /*图片位置计算*/
+                                                var imgCount = function () {
+                                                    $('.img-count').each(function (index, element) {
+                                                        var imgH = $(this).height();
+                                                        var imgW = $(this).width();
+                                                        var $thisimg = $(this).find('img');
+                                                        var img = new Image();
+                                                        img.onload = function () {
+                                                            if ($thisimg.data("img") === false) {
+                                                                return '';
+                                                            }
+                                                            var imgWidth = img.width;
+                                                            var imgHeight = img.height;
+                                                            if ((imgWidth / imgHeight) < (imgW / imgH)) {
+                                                                $thisimg.css({ 'height': (imgW / imgH) * ((imgHeight * 1.00) / imgWidth) * imgH, 'max-height': (imgW / imgH) * ((imgHeight * 1.00) / imgWidth) * imgH, 'top': -((imgW / imgH) * ((imgHeight * 1.00) / imgWidth) - 1) / 2 * imgH })
+                                                            } else {
+                                                                $thisimg.css({ 'width': (imgH / imgW) * ((imgWidth * 1.00) / imgHeight) * imgW, 'max-width': (imgH / imgW) * ((imgWidth * 1.00) / imgHeight) * imgW, 'left': -((imgH / imgW) * ((imgWidth * 1.00) / imgHeight) - 1) / 2 * imgW })
+                                                            }
+                                                        }
+                                                        img.src = $thisimg.attr("src");
+                                                    });
+                                                }
+                            
+                                                //滚动设置
+                                                var swiper = new Swiper('#newsList1', {
+                                                    effect: 'fade',
+                                                    fadeEffect: {
+                                                        crossFade: true,
+                                                    },
+                                                    direction: 'horizontal',
+                                                    loop: true,
+                                                    autoplay: {
+                                                        delay: 5000,//滚动速度
+                                                        disableOnInteraction: false,
+                                                    },
+                                                    pagination: {
+                                                        el: '.adSN_page',
+                                                        clickable: true,
+                                                    },
+                                                    on: {
+                                                        init: function () {
+                                                            var total = this.slides.length - 2;
+                                                            $('.swiper-num .total').text('0' + total);
+                                                            this.emit('transitionEnd');
+                                                        },
+                                                        transitionEnd: function () {
+                                                            var index = this.realIndex + 1;
+                                                            $(".swiper-num .active").text("0" + index);
+                                                        }
+                                                    }
+                                                });
+                            
+                                                imgCount();
+                                                $(window).resize(function () {
+                                                    imgCount();
+                                                });
+                                            });
+                                        </script>
+                                        <!-- 基于swiper的新闻滚动组合1 end-->
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="s1-right">
+                            <div>
+                                <ul class="s4-rtext1">
+                                    <li>
+                                        <a href=" /info/1022/3008.htm" target="_blank">
+                                           
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•喜讯｜我校4个专业入选2021年国家级一流本科专业...</div><span class="s4-r-date">2022-06-12</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/3007.htm" target="_blank">
+                                            
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校召开2022届毕业生就业工作调度会</div><span class="s4-r-date">2022-06-10</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/3005.htm" target="_blank">
+                                            
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校召开2022年党的建设工作部署会和...</div><span class="s4-r-date">2022-06-02</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/3004.htm" target="_blank">
+                                           
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校举办2022年“挑战杯”大学生创业...</div><span class="s4-r-date">2022-06-02</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/3003.htm" target="_blank">
+                                            
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校召开党委常委理论学习会专题学习...</div><span class="s4-r-date">2022-06-01</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/3002.htm" target="_blank">
+                                           
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校召开学习贯彻习近平总书记给南京...</div><span class="s4-r-date">2022-05-27</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/3001.htm" target="_blank">
+                                           
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校召开本专科招生委员会2022年第...</div><span class="s4-r-date">2022-05-27</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/3000.htm" target="_blank">
+                                           
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+											
+                                            <div class="rtext-Text">•健康师大”师生体能“云”竞赛圆满落幕</div><span class="s4-r-date">2022-05-24</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/2998.htm" target="_blank">
+                                           
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校召开2022年度工作会议</div><span class="s4-r-date">2022-05-23</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=" /info/1022/2997.htm" target="_blank">
+                                           
+                                            <div style="width: 20px;height:5px;float: left;"></div>
+                                            <div class="rtext-Text">•学校在全省稳就业工作视频会议上作交...</div><span class="s4-r-date">2022-05-22</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+
+<!-- <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> -->
+<!-- <script src='./js/hammer.min.js'></script> -->
+<!-- <script src='./js/slider.js'></script> -->
+
+
+</html>
